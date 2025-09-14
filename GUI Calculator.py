@@ -4,6 +4,7 @@ def get_digit(digit):
     current=result_label['text']
     new = current + str(digit)
     result_label.config(text= new)
+    
 def clr():
         result_label.config(text='')
 
