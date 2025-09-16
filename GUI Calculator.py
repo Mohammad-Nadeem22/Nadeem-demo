@@ -15,7 +15,7 @@ root.geometry("280x373")
 root.resizable(0,0)
 root.configure(background="blue")
 result_label = Label(root,text='',bg='blue',fg='white')
-result_label.grid(row=0,column=0,columnspan=5,pady=(25,30),sticky='w')
+result_label.grid(row=0,column=0,columnspan=5,pady=(30,30),sticky='w')
 result_label.config(font=("verdana",40,'bold'))
 
 btn7=Button(root,text='7',bg="#0064a6",fg='white',width=5,height=2,command=lambda :get_digit(7))
