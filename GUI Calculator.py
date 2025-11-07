@@ -80,5 +80,5 @@ btn_equal.config(font=('verdana',14))
 
 btn_div=Button(root,text='/',bg="#0064a6",fg='white',width=5,height=2)
 btn_div.grid(row=4,column=3)
-btn_div.config(font=('verdana',14))
+btn_div.config(font=('verdana',15))
 root.mainloop()
